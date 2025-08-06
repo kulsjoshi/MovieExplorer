@@ -1,4 +1,4 @@
-package com.kuldeep.movieexplorer.utils.theme
+package com.kuldeep.movieexplorer.presentation.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
