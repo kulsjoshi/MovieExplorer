@@ -1,4 +1,4 @@
-package com.kuldeep.movieexplorer.utils.theme
+package com.kuldeep.movieexplorer.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
