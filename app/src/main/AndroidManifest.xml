@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".MovieExplorerApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,21 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieExplorer">
-        <activity
-            android:name=".presentation.ui.screens.DetailScreen"
-            android:exported="false"
-            android:label="@string/title_activity_detail_screen"
-            android:theme="@style/Theme.MovieExplorer" />
-        <activity
-            android:name=".presentation.ui.screens.HomeScreen"
-            android:exported="false"
-            android:label="@string/title_activity_home_screen"
-            android:theme="@style/Theme.MovieExplorer" />
-        <activity
-            android:name=".presentation.ui.screens.HomeScreen.kt"
-            android:exported="false"
-            android:label="@string/title_activity_home_screen.kt"
-            android:theme="@style/Theme.MovieExplorer" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
